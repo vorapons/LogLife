@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject private var userVM = UserViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        if( self.userVM.isLoggedIn ) {
+            ActivitiesView().environmentObject(userVM)
+        } else {
+            MainView().environmentObject(userVM)
         }
-        .padding()
+        
     }
 }
 

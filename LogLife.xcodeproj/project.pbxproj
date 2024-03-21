@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF12AD272BAB5E5F00BFA9C7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12AD262BAB5E5F00BFA9C7 /* MainView.swift */; };
+		AF12AD292BABDC3100BFA9C7 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12AD282BABDC3100BFA9C7 /* UserViewModel.swift */; };
+		AF12AD2B2BAC0FE700BFA9C7 /* ActivityCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12AD2A2BAC0FE700BFA9C7 /* ActivityCellView.swift */; };
+		AF12AD2D2BAC1D9B00BFA9C7 /* LandingPageView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12AD2C2BAC1D9B00BFA9C7 /* LandingPageView01.swift */; };
+		AF12AD2F2BAC1F3400BFA9C7 /* LandingPageView02.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF12AD2E2BAC1F3400BFA9C7 /* LandingPageView02.swift */; };
 		AF8445B82BA72366007B9E6B /* LogLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8445B72BA72366007B9E6B /* LogLifeApp.swift */; };
 		AF8445BA2BA72366007B9E6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8445B92BA72366007B9E6B /* ContentView.swift */; };
 		AF8445BC2BA72367007B9E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8445BB2BA72367007B9E6B /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 		AF8445C92BA72367007B9E6B /* LogLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8445C82BA72367007B9E6B /* LogLifeTests.swift */; };
 		AF8445D32BA72367007B9E6B /* LogLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8445D22BA72367007B9E6B /* LogLifeUITests.swift */; };
 		AF8445D52BA72367007B9E6B /* LogLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8445D42BA72367007B9E6B /* LogLifeUITestsLaunchTests.swift */; };
+		AF8445E22BA8ACC1007B9E6B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8445E12BA8ACC1007B9E6B /* MainViewModel.swift */; };
+		AF8445E42BA9933E007B9E6B /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8445E32BA9933E007B9E6B /* ActivitiesView.swift */; };
+		AF8445E62BA9941A007B9E6B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8445E52BA9941A007B9E6B /* LoginView.swift */; };
+		AF8445E82BA99992007B9E6B /* ActivitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8445E72BA99992007B9E6B /* ActivitiesViewModel.swift */; };
+		AF8445EA2BA99ABD007B9E6B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8445E92BA99ABD007B9E6B /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF12AD262BAB5E5F00BFA9C7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AF12AD282BABDC3100BFA9C7 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		AF12AD2A2BAC0FE700BFA9C7 /* ActivityCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCellView.swift; sourceTree = "<group>"; };
+		AF12AD2C2BAC1D9B00BFA9C7 /* LandingPageView01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView01.swift; sourceTree = "<group>"; };
+		AF12AD2E2BAC1F3400BFA9C7 /* LandingPageView02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView02.swift; sourceTree = "<group>"; };
 		AF8445B42BA72366007B9E6B /* LogLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8445B72BA72366007B9E6B /* LogLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLifeApp.swift; sourceTree = "<group>"; };
 		AF8445B92BA72366007B9E6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,11 @@
 		AF8445CE2BA72367007B9E6B /* LogLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8445D22BA72367007B9E6B /* LogLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLifeUITests.swift; sourceTree = "<group>"; };
 		AF8445D42BA72367007B9E6B /* LogLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF8445E12BA8ACC1007B9E6B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		AF8445E32BA9933E007B9E6B /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
+		AF8445E52BA9941A007B9E6B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AF8445E72BA99992007B9E6B /* ActivitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewModel.swift; sourceTree = "<group>"; };
+		AF8445E92BA99ABD007B9E6B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +91,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF12AD242BA9C99900BFA9C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF8445E12BA8ACC1007B9E6B /* MainViewModel.swift */,
+				AF8445E92BA99ABD007B9E6B /* LoginViewModel.swift */,
+				AF8445E72BA99992007B9E6B /* ActivitiesViewModel.swift */,
+				AF12AD282BABDC3100BFA9C7 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF12AD252BA9C9B200BFA9C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF8445E52BA9941A007B9E6B /* LoginView.swift */,
+				AF8445E32BA9933E007B9E6B /* ActivitiesView.swift */,
+				AF12AD262BAB5E5F00BFA9C7 /* MainView.swift */,
+				AF12AD2A2BAC0FE700BFA9C7 /* ActivityCellView.swift */,
+				AF12AD2C2BAC1D9B00BFA9C7 /* LandingPageView01.swift */,
+				AF12AD2E2BAC1F3400BFA9C7 /* LandingPageView02.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AF8445AB2BA72366007B9E6B = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +138,8 @@
 		AF8445B62BA72366007B9E6B /* LogLife */ = {
 			isa = PBXGroup;
 			children = (
+				AF12AD252BA9C9B200BFA9C7 /* View */,
+				AF12AD242BA9C99900BFA9C7 /* ViewModel */,
 				AF8445B72BA72366007B9E6B /* LogLifeApp.swift */,
 				AF8445B92BA72366007B9E6B /* ContentView.swift */,
 				AF8445BB2BA72367007B9E6B /* Assets.xcassets */,
@@ -258,7 +304,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF8445BA2BA72366007B9E6B /* ContentView.swift in Sources */,
+				AF12AD272BAB5E5F00BFA9C7 /* MainView.swift in Sources */,
+				AF12AD2D2BAC1D9B00BFA9C7 /* LandingPageView01.swift in Sources */,
 				AF8445B82BA72366007B9E6B /* LogLifeApp.swift in Sources */,
+				AF12AD2B2BAC0FE700BFA9C7 /* ActivityCellView.swift in Sources */,
+				AF8445E22BA8ACC1007B9E6B /* MainViewModel.swift in Sources */,
+				AF8445E82BA99992007B9E6B /* ActivitiesViewModel.swift in Sources */,
+				AF8445E62BA9941A007B9E6B /* LoginView.swift in Sources */,
+				AF8445E42BA9933E007B9E6B /* ActivitiesView.swift in Sources */,
+				AF12AD2F2BAC1F3400BFA9C7 /* LandingPageView02.swift in Sources */,
+				AF12AD292BABDC3100BFA9C7 /* UserViewModel.swift in Sources */,
+				AF8445EA2BA99ABD007B9E6B /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
